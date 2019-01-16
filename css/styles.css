@@ -1,0 +1,285 @@
+
+@font-face {
+	font-family: ‘Myanmar3’;
+	src: url('/fonts/mm3.ttf');
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+body, table, form, textarea,h1,h2,h3,h4,h5,h6,ul,a  {font-family:'Myanmar3'!important;}
+
+.login_heading h1, .form-group .grid-container1{
+	font-family: 'Myanmar3';
+}
+.dep a{
+	height: auto !important;
+}
+.view_image{
+	width: 100px;
+	height: 100px;
+}
+.photosize{
+	width:30px;
+	height:30px;
+}
+.passportsize{
+	width:15%;
+	height:15%;
+}
+.form_passport{
+	width: 100px;
+	height:100px;
+	display: inline;
+	
+	margin-left: 9em;
+}
+.p2 {
+	font-size: 16px;
+	text-align: center;
+}
+
+.passport{
+	float: right;
+}
+#faq-tab-3{
+	font-family: 'Myanmar3';
+}
+.maintenance{
+	margin-top: 5em;
+}
+/*Message SMS*/
+.message_button{
+	float: right;
+	border-radius: 50%;
+	border: none;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 10px;
+	cursor: pointer;
+	bottom: 5%;
+	margin-right: 20px;
+}
+.modal.right .modal-dialog {
+	position: fixed;
+	margin: auto;
+	bottom: 0%;
+	right: -320px;
+	-webkit-transform: translate3d(0%, 0, 0);
+	-ms-transform: translate3d(0%, 0, 0);
+	-o-transform: translate3d(0%, 0, 0);
+	transform: translate3d(0%, 0, 0);
+}
+.page-header h4{
+	color :#2679B5;
+}
+.nav-tabs>li{
+	width:145px;
+}
+/*Register*/
+.login-box .toolbar > div:first-child{
+	float: right;
+}
+.register-box .toolbar > div:first-child{
+	float: right;
+}
+.center a{
+	color: #fff;
+}
+.message{
+	color: #d16e6c;
+}
+.chat-box-single-line {
+	border-bottom: 1px solid #428BCA;
+	height: 12px;
+	margin: 7px 0 20px;
+	position: relative;
+	text-align: center;
+}
+.timestamp {
+	background: #fff none repeat scroll 0 0;
+	color: #428BCA;
+	padding: 0 11px;
+}
+.sms_scroll{
+	overflow: scroll;
+	height: 30em;
+}
+.alert{
+	padding:10px;
+	width: 40%;
+	float: right;
+	margin-top: 10px;
+}
+.page-content{
+	background: no-repeat;
+}
+#example h4{
+	padding: 5px;
+}
+.nrc_space{
+	float:left;
+	min-height : 1px;
+}
+.tsp-1{
+	width: 10.7%;
+}
+.nptdc{
+	color: #fff;
+}
+#errorLeave{
+	display: none;
+}
+.right{
+	text-align: right;
+	padding-right: 2px;
+}
+/*Modal*/
+/*Right*/
+.white_delete{
+	color: #fff;
+}
+.modal.right.fade.in .modal-dialog {
+	right: 0;
+}
+.modal-header
+{
+	padding:10px;
+	background-color: #fff;
+	color:#2679B5;
+}
+.page-header h1{
+	font-size: 20px;
+}
+.radio{
+	margin-top: 0px;
+}
+.sign1{
+	float: left;
+}
+
+/*For Table*/
+.table_form tbody>tr>td, .table_form thead>tr>td, .table_form thead>tr>th {
+	padding-top: 7px;
+	padding-bottom: 7px;;
+	border: 1px solid black;
+	height: 32px;
+}
+.table_form{
+
+	background-color: #ffffff;
+	border-collapse: collapse;
+	width: 100%;
+}
+.blank-row
+{
+	height: 30px !important;  /*overwrites any other rules */
+	background-color: #FFFFFF;
+}
+
+.blank_pad{
+	height: 20px;
+}
+.head_title{
+	text-align: center;
+}
+
+.grid-container {
+	display: inline-grid;
+	grid-template-columns: auto auto  ;
+	font-size: 15px;
+	/*  padding: 30px;*/
+
+}
+.grid-item1{
+	padding-left: 20px;
+	margin: 10px;
+}
+.grid-item {
+	margin: 10px;
+}
+.grid-container1 {
+	display: inline-grid;
+	grid-template-columns: auto auto auto auto;
+	padding: 0 10px 0 20px;
+	font-size: 15px;
+}
+.grid-container2 {
+	display: inline-grid;
+	grid-template-columns: auto auto auto auto;
+	padding-left: 50px;
+	font-size: 15px;
+}
+.grid-I{
+	margin: 5px 9px;
+}
+.grid-II{
+	margin: 15px;
+}
+.all_table{
+	padding-left: 5em;
+}
+.sign{
+	/*	margin-left: 2em;*/
+	float:right;
+}
+.subdept{
+	background-color:#ABBAC3!important;
+	border-color: #ABBAC3;
+	color:#fff;
+
+}
+.table_form1 tbody>tr>td, .table_form1 thead>tr>td, .table_form1 thead>tr>th {
+ padding-top: 7px;
+ padding-bottom: 7px;;
+ border: 1px solid black;
+/* height: 20px;*/
+}
+.table_form1{
+	background-color: #ffffff;
+	 border-collapse: collapse;
+    width: 108%;
+}
+.table_form2 tbody>tr>td, .table_form1 thead>tr>td, .table_form1 thead>tr>th {
+ padding-top: 7px;
+ padding-bottom: 7px;;
+ border: 1px solid black;
+/* height: 32px;*/
+}
+.table_form2{
+
+	background-color: #ffffff;
+	 border-collapse: collapse;
+    width: 107%;
+
+}
+.blank_row1
+{
+    height: 36px;  /*overwrites any other rules */
+    background-color: #FFFFFF;
+
+}
+.ali_cen{
+	text-align: center;
+}
+.nav-list>li>a{
+	padding-left: 2px;
+}
+
+@media only screen and (max-width: 640px) {
+	.tsp-1{
+		width: 38%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	
+	.login_heading h1{
+		font-size: 24px;
+	}
+}
+.highlight {
+	color:red;
+	font-size: bold;
+}
